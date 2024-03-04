@@ -5,6 +5,7 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
+
 dependencyResolutionManagement {
 	repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 	repositories {
@@ -14,5 +15,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "EasyLang"
+
+apply(from = "common/settings-common.gradle.kts")
+
 include(":app")
- 
