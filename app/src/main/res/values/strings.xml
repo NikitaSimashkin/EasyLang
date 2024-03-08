@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EasyLang</string>
+
+    <string name="bottom_bar_learn">Learn</string>
+    <string name="bottom_bar_dictionary">Dictionary</string>
+    <string name="bottom_bar_settings">Settings</string>
 </resources>
