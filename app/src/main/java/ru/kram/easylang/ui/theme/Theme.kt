@@ -37,6 +37,8 @@ private val LightColorScheme = lightColorScheme(
     */
 )
 
+val colors @Composable get() = MaterialTheme.colorScheme
+
 @Composable
 fun EasyLangTheme(
 	darkTheme: Boolean = isSystemInDarkTheme(),
